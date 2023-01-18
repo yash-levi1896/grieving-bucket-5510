@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./index.css">
+    <script src="https://kit.fontawesome.com/b95f450ab5.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="offer">
+       
+    </div>
+    <div id="details">
+        <div>
+            <p>STORES & EVENTS</p><span>|</span>
+            <p> BLOG & PODCAST </p><span>|</span>
+            <p> MEMBERSHIP  </p><span>|</span>
+            <p> COUPONS & DEALS  </p><span>|</span>
+            <p> BESTSELLERS  </p><span>|</span>
+            <p> GIFT CARDS  </p>
+        </div>
+        <div>
+            <P>ACCOUNTS </P><span>|</span>
+            <i class="fa-solid fa-heart"></i>
+            <P></i>WISHLIST</P>
+        </div>
+    </div>
+    <div id="logo">
+        <img src="./turn The page.png" alt="">
+       <form >
+        <input type="text" placeholder="Search by Title,Author,Key word or ISBN">
+        <button type="submit"><i class="fa-solid fa-magnifying-glass" style="font-size: 30px;padding-bottom:10px;"></i></button>
+       </form>
+       <i class="fa-solid fa-cart-plus" style="font-size:50px;"></i>
+     </div>
+     <div id="cat">
+        <P><b>Books </b></P><span>||</span>
+        <P> <b>Fiction </b></P><span>|</span>
+        <P> <b> Nonfiction</b></P><span>|</span>
+        <P> <b> eBooks</b></P><span>|</span>
+        <P><b>Audio Books</b></P><span>|</span>
+        <P><b>Teens & YA</b></P><span>|</span>
+        <P><b>Kids</b></P><span>|</span>
+        <P><b>Toys & games</b></P><span>|</span>
+        <P><b>Stationary & gifts</b></P><span>|</span>
+        <P><b>Music & Movies</b></P>
+     </div>
+     <div id="deals">
+       
+        <img src="https://dispatch.barnesandnoble.com/content/dam/ccr/global/global-nav-banner/2022/12/PROD-25649_RUSH_PostHolidaySale_GlobalNavBanner_12-26_rd3.png" alt="">
+        
+     </div>
+     <div id="last">
+        <p>Free Shipping on Orders of $40 or More</p>
+     </div>
+     <div id="new-arrival"></div>
+     <div id="bottom-div">
+        <div>
+            <h5>TTP SERVICES</h5>
+            <p>Affiliate Program</p>
+            <p>Publisher & Author <br> Guidelines</p>
+            <p>Bulk Order Discounts</p>
+            <p>TTP Mobile Apps</p>
+            <p>TTP Membership</p>
+            <p>TTP Mastercard</p>
+            <p>TTP Kids'Club</p>
+            <p>TTP Educators</p>
+            <p>TTP Bookfairs</p>
+        </div>
+        <div>
+            <h5>ABOUT US</h5>
+            <p>About TTP</p>
+            <p>Career at TTP</p>
+            <p>TTP.Inc</p>
+            <p>TTP Kitchen</p>
+        </div>
+        <div>
+            <h5>QUICK HELP</h5>
+            <p>Help Center</p>
+            <p>Covid Safety</p>
+            <p>Shipping & Returns</p>
+            <p>Buy online,pickup in store</p>
+            <p>Order Status</p>
+            <p>Product Recall</p>
+            <p>Correction & Updates</p>
+            <p>Gift Cards</p>
+        </div>
+        <div>
+            <h5>SHOP BY CATEGORY</h5>
+            <p>Books</p>
+            <p>Fiction</p>
+            <p>Nonfiction</p>
+            <p>Kids</p>
+            <p>Teens & YA</p>
+            <p>eBooks</p>
+            <p>Audiobooks</p>
+            <p>NOOK Tablets & eReaders</p>
+            <p>Holiday Gift Guide</p>
+        </div>
+        <div>
+            <h5>FIND A STORE</h5>
+            <form>
+                <input type="search" name="" id="">
+                <button type="submit">></button>
+            </form>
+            <h5>SIGN UP FOR SAVINGS, NEWS, AND UPDATES</h5>
+            <form>
+                <input type="search" name="" id="">
+                <button type="submit">></button>
+            </form>
+            <p>Submit your email address to receive Turn The <br> Page offers & updates. You can view Turn The <br> page  Privacy Policy here. Unsubscribe from our <br> emails at any time.</p>
+            <div id="limg" >
+            <h5>FOLLOW US</h5>
+            <i class="fa-brands fa-facebook" style="font-size:30px;"></i>
+            <i class="fa-brands fa-twitter" style="font-size:30px;"></i>
+            <i class="fa-brands fa-square-instagram" style="font-size:30px;"></i>
+           </div>
+        </div>
+     </div>
+     
+        
+        
+    </div>
+    <div id="ldiv">
+        <div>
+            <P>Terms of Use</P>
+            <P> Copyright & Trademark</P>
+            <P> Privacy</P>
+            <P> Do Not Sell My Personal Information</P>
+            <P> Accessibility</P>
+            <P> Cookie Policy</P>
+            <P> Sitemap</P>
+        </div>
+        <p>
+            ©1997-2023 Barnes & Noble Booksellers, Inc. <br> 33 East 17th Street, New York, NY 10003</p>
+    </div>
+</body>
+<script>
+    
+let di=document.getElementById("offer");
+
+function slideshowFun(images){
+  di.innerHTML="";
+    let im=document.createElement("p");
+    im.innerText=images;
+    im.style.Color="red"
+    
+
+    di.append(im)
+}
+
+// Use the following data for slideshow
+var movieImages = [
+  "FREE SHIPPING ON ORDERS OF $40 OR MORE",
+  "BUY ONE, GET ONE 50% OFF BOOKS FOR ALL AGES",
+  "EXPLORE ALL KIDS' SEASONAL OFFERS",
+  "BUY ONE, GET ONE 50% OFF JIGSAW PUZZLES",
+  "50% OFF THOUSANDS OF HARDCOVER BOOKS"
+]
+let i=0;
+
+
+window.addEventListener("load", function () {
+  // add event-listeners;
+  slideshowFun(movieImages[0]);
+   setInterval(()=>{
+     if(i>=movieImages.length-1){
+      
+      i=-1;
+    }
+     i++;
+    slideshowFun(movieImages[i]);
+    },4000)
+    
+});
+
+// let new=document.getElementById("new-arrival");
+
+// function slideshow(images){
+//   new.innerHTML="";
+//     let x=document.createElement("img");
+//     x.setAttribute("src",images);
+    
+
+//     di.append(x)
+// }
+
+// // Use the following data for slideshow
+// var movieImage = [
+//   "https://dispatch.barnesandnoble.com/content/dam/ccr/homepage/daily/2023/01/10/25641_Quote_A3_Haunted_House_01-10.jpg",
+//   "https://images.indianexpress.com/2022/06/major-movie-review-1200.jpg",
+//   "https://img1.hotstarext.com/image/upload/f_auto,t_web_m_1x/sources/r1/cms/prod/2607/1062607-h-fa693eabb41d",
+//   "https://lumiere-a.akamaihd.net/v1/images/p_aladdin2019_17638_d53b09e6.jpeg",
+//   "https://igimages.gumlet.io/hindi/gallery/movies/tubelight/tubelight_poster.jpg?w=160&dpr=2.6"
+// ]
+// let j=0;
+
+
+// window.addEventListener("load", function () {
+//   // add event-listeners;
+//   slideshow(movieImage[0]);
+//    setInterval(()=>{
+//      if(i>=movieImage.length-1){
+      
+//       j=-1;
+//     }
+//      j++;
+//     slideshowFun(movieImage[i]);
+//     },2000)
+    
+// });
+
+    
+
+</script>
+</html>
