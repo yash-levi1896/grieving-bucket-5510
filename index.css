@@ -30,6 +30,10 @@ body{
     border-bottom: 1px solid rgb(136, 116, 4);
     cursor: pointer;
 }
+#details a:hover{
+    border-bottom: 1px solid rgb(136, 116, 4);
+    cursor: pointer;
+}
 #details>div:nth-child(2) span{
     color:rgb(243, 208, 8);
 }
@@ -60,6 +64,10 @@ body{
     justify-content: space-between;
     align-items: center;
 }
+#details>div:nth-child(2) a{
+    color:black;
+    text-decoration: none;
+}
 #logo{
     display:flex;
     width:80%;
@@ -83,6 +91,10 @@ body{
     justify-content: space-between;
     margin: auto;
 }
+#cat a{
+    text-decoration: none;
+    color:black;
+}
 #cat span{
     color:rgb(197, 169, 9);
 }
@@ -97,6 +109,117 @@ body{
     padding-top: 0.5px;
     padding-bottom: 0.5px;
 }
+#det{
+    width:80%;
+    margin: auto;
+    text-align: center;
+}
+.main-carousel{
+    border: 1px solid red;
+    display: flex;
+    width: 80%;
+    margin: auto
+}
+.main-carousel img{
+    height:200px;
+    
+}
+
+  /* .carousel {
+    background: #EEE;
+  }
+  
+  .carousel-cell {
+    width: 35%;
+    height: 200px;
+    margin-right: 10px;
+    background: #8C8;
+    border-radius: 5px;
+    counter-increment: carousel-cell;
+  }
+  
+  .carousel-cell.is-selected {
+    background: #ED2;
+  }
+  
+  /* cell number */
+  .carousel-cell:before {
+    display: block;
+    text-align: center;
+    content: counter(carousel-cell);
+    line-height: 200px;
+    font-size: 80px;
+    color: white;
+  } */
+  
+#middle-sect>div:nth-child(1){
+    width:80%;
+    margin: auto;
+}
+#middle-sect>div:nth-child(1)>img{
+    width:100%;
+}
+#poster{
+    width:80%;
+    margin: auto;
+}
+#grid{
+    box-sizing: border-box;
+    display: grid;
+    grid-template-columns: 25% 17.49% 17.49% 17.49% 17.49% ;
+    grid-template-rows: repeat(2,1fr);
+    gap:20px;
+    width:100%;
+    margin: auto;
+    /* border:1px solid red */
+}
+#grid>div{
+    text-align: center;
+    /* border: 1px solid blue; */
+    padding-bottom: 0px;
+}
+#grid>div>p{
+    margin: 5px;
+}
+#grid>div img{
+    width:100%;
+    margin-bottom: 0px;
+    
+}
+#grid>div>h4{
+    margin-top: 0px;
+}
+#grid>div:nth-child(9){
+    /* height:400px;    */
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 3 ;
+}
+#grid>div:nth-child(9)>img{
+    height:700px;
+    width:100%;
+}
+#jigsaw{
+    width:80%;
+    margin: auto;
+}
+#jigsaw img{
+    width:100%;
+}
+#laoffer{
+    width:80%;
+    margin: auto;
+}
+#laoffer img{
+    width:100%;
+}
+#laoffer p{
+    font-size: 10px;
+    color:gray;
+    text-align: center;
+    margin-top: 30px;
+}
 #bottom-div{
     display: flex;
     border-top: 1px solid gray;
@@ -104,6 +227,34 @@ body{
     justify-content: space-between;
     margin:auto;
     margin-top: 50px;
+}
+#about{
+   width:80%;
+   margin: auto;
+}
+#about>h5{
+   text-align: center;
+   margin:5px
+}
+#about>p{
+    text-align: center;
+    margin:0px
+}
+#limage>div{
+    display: flex;
+    flex-direction: column;
+    /* border: 1px solid red; */
+}
+#limage{
+    display: flex;
+    width:80%;
+    margin: auto;
+    justify-content: space-between;
+    margin-top: 70px;
+}
+#limage>div i{
+    display: block;
+    margin: auto;
 }
 #bottom-div p{
     font-size: 13px;
