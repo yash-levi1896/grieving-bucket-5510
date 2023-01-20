@@ -30,13 +30,19 @@ body{
     border-bottom: 1px solid rgb(136, 116, 4);
     cursor: pointer;
 }
+<<<<<<< HEAD
+=======
 
+>>>>>>> f87613ddbb1ebedabab1982d01a6921619bc188e
 #details a:hover{
     border-bottom: 1px solid rgb(136, 116, 4);
     cursor: pointer;
 }
+<<<<<<< HEAD
+=======
 
 
+>>>>>>> f87613ddbb1ebedabab1982d01a6921619bc188e
 #details>div:nth-child(2) span{
     color:rgb(243, 208, 8);
 }
@@ -67,7 +73,10 @@ body{
     justify-content: space-between;
     align-items: center;
 }
+<<<<<<< HEAD
+=======
 
+>>>>>>> f87613ddbb1ebedabab1982d01a6921619bc188e
 #details>div:nth-child(2) a{
     color:black;
     text-decoration: none;
@@ -95,8 +104,11 @@ body{
     justify-content: space-between;
     margin: auto;
 }
+<<<<<<< HEAD
+=======
 
 
+>>>>>>> f87613ddbb1ebedabab1982d01a6921619bc188e
 #cat a{
     text-decoration: none;
     color:black;
@@ -120,7 +132,20 @@ body{
     margin: auto;
     text-align: center;
 }
+<<<<<<< HEAD
+/* .main-carousel{
+    border: 1px solid red;
+    display: flex;
+    width: 80%;
+    margin: auto
+}
+.main-carousel img{
+    height:200px;
+    
+} */
+=======
 
+>>>>>>> f87613ddbb1ebedabab1982d01a6921619bc188e
 
   /* .carousel {
     background: #EEE;
@@ -128,14 +153,14 @@ body{
   
   
   /* cell number */
-  .carousel-cell:before {
+  /* .carousel-cell:before {
     display: block;
     text-align: center;
     content: counter(carousel-cell);
     line-height: 200px;
     font-size: 80px;
     color: white;
-  } */
+  }  */
   
 #middle-sect>div:nth-child(1){
     width:80%;
@@ -205,7 +230,10 @@ body{
     text-align: center;
     margin-top: 30px;
 }
+<<<<<<< HEAD
+=======
 
+>>>>>>> f87613ddbb1ebedabab1982d01a6921619bc188e
 #bottom-div{
     display: flex;
     border-top: 1px solid gray;
@@ -214,7 +242,10 @@ body{
     margin:auto;
     margin-top: 50px;
 }
+<<<<<<< HEAD
+=======
 
+>>>>>>> f87613ddbb1ebedabab1982d01a6921619bc188e
 #about{
    width:80%;
    margin: auto;
@@ -243,7 +274,10 @@ body{
     display: block;
     margin: auto;
 }
+<<<<<<< HEAD
+=======
 
+>>>>>>> f87613ddbb1ebedabab1982d01a6921619bc188e
 #bottom-div p{
     font-size: 13px;
     color:green
