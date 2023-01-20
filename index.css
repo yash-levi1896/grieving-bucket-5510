@@ -30,10 +30,19 @@ body{
     border-bottom: 1px solid rgb(136, 116, 4);
     cursor: pointer;
 }
+<<<<<<< HEAD
+=======
+
+>>>>>>> f87613ddbb1ebedabab1982d01a6921619bc188e
 #details a:hover{
     border-bottom: 1px solid rgb(136, 116, 4);
     cursor: pointer;
 }
+<<<<<<< HEAD
+=======
+
+
+>>>>>>> f87613ddbb1ebedabab1982d01a6921619bc188e
 #details>div:nth-child(2) span{
     color:rgb(243, 208, 8);
 }
@@ -64,6 +73,10 @@ body{
     justify-content: space-between;
     align-items: center;
 }
+<<<<<<< HEAD
+=======
+
+>>>>>>> f87613ddbb1ebedabab1982d01a6921619bc188e
 #details>div:nth-child(2) a{
     color:black;
     text-decoration: none;
@@ -91,6 +104,11 @@ body{
     justify-content: space-between;
     margin: auto;
 }
+<<<<<<< HEAD
+=======
+
+
+>>>>>>> f87613ddbb1ebedabab1982d01a6921619bc188e
 #cat a{
     text-decoration: none;
     color:black;
@@ -114,6 +132,7 @@ body{
     margin: auto;
     text-align: center;
 }
+<<<<<<< HEAD
 /* .main-carousel{
     border: 1px solid red;
     display: flex;
@@ -124,23 +143,14 @@ body{
     height:200px;
     
 } */
+=======
+
+>>>>>>> f87613ddbb1ebedabab1982d01a6921619bc188e
 
   /* .carousel {
     background: #EEE;
   }
   
-  .carousel-cell {
-    width: 35%;
-    height: 200px;
-    margin-right: 10px;
-    background: #8C8;
-    border-radius: 5px;
-    counter-increment: carousel-cell;
-  }
-  
-  .carousel-cell.is-selected {
-    background: #ED2;
-  }
   
   /* cell number */
   /* .carousel-cell:before {
@@ -220,6 +230,10 @@ body{
     text-align: center;
     margin-top: 30px;
 }
+<<<<<<< HEAD
+=======
+
+>>>>>>> f87613ddbb1ebedabab1982d01a6921619bc188e
 #bottom-div{
     display: flex;
     border-top: 1px solid gray;
@@ -228,6 +242,10 @@ body{
     margin:auto;
     margin-top: 50px;
 }
+<<<<<<< HEAD
+=======
+
+>>>>>>> f87613ddbb1ebedabab1982d01a6921619bc188e
 #about{
    width:80%;
    margin: auto;
@@ -256,6 +274,10 @@ body{
     display: block;
     margin: auto;
 }
+<<<<<<< HEAD
+=======
+
+>>>>>>> f87613ddbb1ebedabab1982d01a6921619bc188e
 #bottom-div p{
     font-size: 13px;
     color:green
