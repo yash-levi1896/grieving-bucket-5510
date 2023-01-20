@@ -1,0 +1,144 @@
+[
+    {
+        "Name":"Harry Potter & ",
+        "Image":"./image poster.jpg",
+        "Author":"JK Rowling",
+        "Rating":4,
+        "id":1
+
+    },
+    {
+        "Name":"Harry Potter",
+        "Image":"./image poster.jpg",
+        "Author":"JK Rowling",
+        "Rating":4,
+        "id":2
+    },
+    {
+        "Name":"Harry Potter",
+        "Image":"./image poster.jpg",
+        "Author":"JK Rowling",
+        "Rating":5,
+        "id":3
+    },
+    {
+        "Name":"Harry Potter",
+        "Image":"./image poster.jpg",
+        "Author":"JK Rowling",
+        "Rating":4.8,
+        "id":4
+    },
+    {
+        "Name":"Harry Potter",
+        "Image":"./image poster.jpg",
+        "Author":"JK Rowling",
+        "Rating":4.2,
+        "id":5
+    },
+    {
+        "Name":"Harry Potter",
+        "Image":"./image poster.jpg",
+        "Author":"JK Rowling",
+        "Rating":5,
+        "id":6
+    },
+    {
+        "Name":"Harry Potter",
+        "Image":"./image poster.jpg",
+        "Author":"JK Rowling",
+        "Rating":4.3,
+        "id":7
+    },
+    {
+        "Name":"Harry Potter",
+        "Image":"./image poster.jpg",
+        "Author":"JK Rowling",
+        "Rating":3.9,
+        "id":8
+    },
+    {
+        "Name":"Harry Potter",
+        "Image":"./image poster.jpg",
+        "Author":"JK Rowling",
+        "Rating":3.3,
+        "id":9
+    },
+    {
+        "Name":"Harry Potter",
+        "Image":"./image poster.jpg",
+        "Author":"JK Rowling",
+        "Rating":4.1,
+        "id":10
+    },
+    {
+        "Name":"Harry Potter",
+        "Image":"./image poster.jpg",
+        "Author":"JK Rowling",
+        "Rating":3.8,
+        "id":11
+    },
+    {
+        "Name":"Harry Potter",
+        "Image":"./image poster.jpg",
+        "Author":"JK Rowling",
+        "Rating":5,
+        "id":12
+    },
+    {
+        "Name":"Harry Potter",
+        "Image":"./image poster.jpg",
+        "Author":"JK Rowling",
+        "Rating":1.5,
+        "id":13
+    },
+    {
+        "Name":"Harry Potter",
+        "Image":"./image poster.jpg",
+        "Author":"JK Rowling",
+        "Rating":3.4,
+        "id":14
+    },
+    {
+        "Name":"Harry Potter",
+        "Image":"./image poster.jpg",
+        "Author":"JK Rowling",
+        "Rating":4.7,
+        "id":15
+    },
+    {
+        "Name":"Harry Potter",
+        "Image":"./image poster.jpg",
+        "Author":"JK Rowling",
+        "Rating":5,
+        "id":16
+    },
+    {
+        "Name":"Harry Potter",
+        "Image":"./image poster.jpg",
+        "Author":"JK Rowling",
+        "Rating":2.9,
+        "id":17
+    },
+    {
+        "Name":"Harry Potter",
+        "Image":"./image poster.jpg",
+        "Author":"JK Rowling",
+        "Rating":3.1,
+        "id":18
+    },
+    {
+        "Name":"Harry Potter",
+        "Image":"./image poster.jpg",
+        "Author":"JK Rowling",
+        "Rating":4.9,
+        "id":19
+    },
+    {
+        "Name":"Harry Potter",
+        "Image":"./image poster.jpg",
+        "Author":"JK Rowling",
+        "Rating":2.9,
+        "id":20
+    }
+
+]
