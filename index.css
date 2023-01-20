@@ -30,13 +30,13 @@ body{
     border-bottom: 1px solid rgb(136, 116, 4);
     cursor: pointer;
 }
-<<<<<<< HEAD
+
 #details a:hover{
     border-bottom: 1px solid rgb(136, 116, 4);
     cursor: pointer;
 }
-=======
->>>>>>> d171388fa923b3aad6c2aeb2812e702062676813
+
+
 #details>div:nth-child(2) span{
     color:rgb(243, 208, 8);
 }
@@ -67,13 +67,11 @@ body{
     justify-content: space-between;
     align-items: center;
 }
-<<<<<<< HEAD
+
 #details>div:nth-child(2) a{
     color:black;
     text-decoration: none;
 }
-=======
->>>>>>> d171388fa923b3aad6c2aeb2812e702062676813
 #logo{
     display:flex;
     width:80%;
@@ -97,13 +95,12 @@ body{
     justify-content: space-between;
     margin: auto;
 }
-<<<<<<< HEAD
+
+
 #cat a{
     text-decoration: none;
     color:black;
 }
-=======
->>>>>>> d171388fa923b3aad6c2aeb2812e702062676813
 #cat span{
     color:rgb(197, 169, 9);
 }
@@ -118,39 +115,17 @@ body{
     padding-top: 0.5px;
     padding-bottom: 0.5px;
 }
-<<<<<<< HEAD
 #det{
     width:80%;
     margin: auto;
     text-align: center;
 }
-.main-carousel{
-    border: 1px solid red;
-    display: flex;
-    width: 80%;
-    margin: auto
-}
-.main-carousel img{
-    height:200px;
-    
-}
+
 
   /* .carousel {
     background: #EEE;
   }
   
-  .carousel-cell {
-    width: 35%;
-    height: 200px;
-    margin-right: 10px;
-    background: #8C8;
-    border-radius: 5px;
-    counter-increment: carousel-cell;
-  }
-  
-  .carousel-cell.is-selected {
-    background: #ED2;
-  }
   
   /* cell number */
   .carousel-cell:before {
@@ -230,8 +205,7 @@ body{
     text-align: center;
     margin-top: 30px;
 }
-=======
->>>>>>> d171388fa923b3aad6c2aeb2812e702062676813
+
 #bottom-div{
     display: flex;
     border-top: 1px solid gray;
@@ -240,7 +214,7 @@ body{
     margin:auto;
     margin-top: 50px;
 }
-<<<<<<< HEAD
+
 #about{
    width:80%;
    margin: auto;
@@ -269,8 +243,7 @@ body{
     display: block;
     margin: auto;
 }
-=======
->>>>>>> d171388fa923b3aad6c2aeb2812e702062676813
+
 #bottom-div p{
     font-size: 13px;
     color:green
