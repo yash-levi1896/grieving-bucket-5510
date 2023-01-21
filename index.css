@@ -33,13 +33,10 @@ body{
     border-bottom: 1px solid rgb(136, 116, 4);
     cursor: pointer;
 }
-
 #details a:hover{
     border-bottom: 1px solid rgb(136, 116, 4);
     cursor: pointer;
 }
-
-
 #details>div:nth-child(2) span{
     color:rgb(243, 208, 8);
 }
@@ -70,7 +67,6 @@ body{
     justify-content: space-between;
     align-items: center;
 }
-
 #details>div:nth-child(2) a{
     color:black;
     text-decoration: none;
@@ -98,8 +94,6 @@ body{
     justify-content: space-between;
     margin: auto;
 }
-
-
 #cat a{
     text-decoration: none;
     color:black;
@@ -123,7 +117,16 @@ body{
     margin: auto;
     text-align: center;
 }
-
+/* .main-carousel{
+    border: 1px solid red;
+    display: flex;
+    width: 80%;
+    margin: auto
+}
+.main-carousel img{
+    height:200px;
+    
+} */
 
   /* .carousel {
     background: #EEE;
@@ -131,14 +134,14 @@ body{
   
   
   /* cell number */
-  .carousel-cell:before {
+  /* .carousel-cell:before {
     display: block;
     text-align: center;
     content: counter(carousel-cell);
     line-height: 200px;
     font-size: 80px;
     color: white;
-  } */
+  }  */
   
 #middle-sect>div:nth-child(1){
     width:80%;
@@ -208,7 +211,6 @@ body{
     text-align: center;
     margin-top: 30px;
 }
-
 #bottom-div{
     display: flex;
     border-top: 1px solid gray;
@@ -217,7 +219,6 @@ body{
     margin:auto;
     margin-top: 50px;
 }
-
 #about{
    width:80%;
    margin: auto;
@@ -246,7 +247,6 @@ body{
     display: block;
     margin: auto;
 }
-
 #bottom-div p{
     font-size: 13px;
     color:green
