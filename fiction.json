@@ -4,6 +4,8 @@
         "Image":"./image poster.jpg",
         "Author":"JK Rowling",
         "Rating":4,
+        "Price":234,
+        "Category":"rom",
         "id":1
 
     },
@@ -11,6 +13,8 @@
         "Name":"Harry Potter",
         "Image":"./image poster.jpg",
         "Author":"JK Rowling",
+        "Price":234,
+        "Category":"sci",
         "Rating":4,
         "id":2
     },
@@ -18,6 +22,8 @@
         "Name":"Harry Potter",
         "Image":"./image poster.jpg",
         "Author":"JK Rowling",
+        "Price":234,
+        "Category":"ma",
         "Rating":5,
         "id":3
     },
@@ -25,6 +31,8 @@
         "Name":"Harry Potter",
         "Image":"./image poster.jpg",
         "Author":"JK Rowling",
+        "Price":234,
+        "Category":"sci",
         "Rating":4.8,
         "id":4
     },
@@ -32,6 +40,8 @@
         "Name":"Harry Potter",
         "Image":"./image poster.jpg",
         "Author":"JK Rowling",
+        "Price":234,
+        "Category":"rom",
         "Rating":4.2,
         "id":5
     },
@@ -39,6 +49,8 @@
         "Name":"Harry Potter",
         "Image":"./image poster.jpg",
         "Author":"JK Rowling",
+        "Price":234,
+        "Category":"ho",
         "Rating":5,
         "id":6
     },
@@ -46,6 +58,8 @@
         "Name":"Harry Potter",
         "Image":"./image poster.jpg",
         "Author":"JK Rowling",
+        "Price":234,
+        "Category":"rom",
         "Rating":4.3,
         "id":7
     },
@@ -53,6 +67,8 @@
         "Name":"Harry Potter",
         "Image":"./image poster.jpg",
         "Author":"JK Rowling",
+        "Price":234,
+        "Category":"sci",
         "Rating":3.9,
         "id":8
     },
@@ -60,6 +76,8 @@
         "Name":"Harry Potter",
         "Image":"./image poster.jpg",
         "Author":"JK Rowling",
+        "Price":234,
+        "Category":"rom",
         "Rating":3.3,
         "id":9
     },
@@ -67,6 +85,8 @@
         "Name":"Harry Potter",
         "Image":"./image poster.jpg",
         "Author":"JK Rowling",
+        "Price":234,
+        "Category":"sci",
         "Rating":4.1,
         "id":10
     },
@@ -74,6 +94,8 @@
         "Name":"Harry Potter",
         "Image":"./image poster.jpg",
         "Author":"JK Rowling",
+        "Price":234,
+        "Category":"rom",
         "Rating":3.8,
         "id":11
     },
@@ -81,6 +103,8 @@
         "Name":"Harry Potter",
         "Image":"./image poster.jpg",
         "Author":"JK Rowling",
+        "Price":234,
+        "Category":"ho",
         "Rating":5,
         "id":12
     },
@@ -88,6 +112,8 @@
         "Name":"Harry Potter",
         "Image":"./image poster.jpg",
         "Author":"JK Rowling",
+        "Price":234,
+        "Category":"rom",
         "Rating":1.5,
         "id":13
     },
@@ -95,6 +121,8 @@
         "Name":"Harry Potter",
         "Image":"./image poster.jpg",
         "Author":"JK Rowling",
+        "Price":234,
+        "Category":"sci",
         "Rating":3.4,
         "id":14
     },
@@ -102,6 +130,8 @@
         "Name":"Harry Potter",
         "Image":"./image poster.jpg",
         "Author":"JK Rowling",
+        "Price":234,
+        "Category":"rom",
         "Rating":4.7,
         "id":15
     },
@@ -109,6 +139,8 @@
         "Name":"Harry Potter",
         "Image":"./image poster.jpg",
         "Author":"JK Rowling",
+        "Price":234,
+        "Category":"rom",
         "Rating":5,
         "id":16
     },
@@ -116,6 +148,8 @@
         "Name":"Harry Potter",
         "Image":"./image poster.jpg",
         "Author":"JK Rowling",
+        "Price":234,
+        "Category":"ma",
         "Rating":2.9,
         "id":17
     },
@@ -123,6 +157,8 @@
         "Name":"Harry Potter",
         "Image":"./image poster.jpg",
         "Author":"JK Rowling",
+        "Price":234,
+        "Category":"sci",
         "Rating":3.1,
         "id":18
     },
@@ -130,6 +166,8 @@
         "Name":"Harry Potter",
         "Image":"./image poster.jpg",
         "Author":"JK Rowling",
+        "Price":234,
+        "Category":"rom",
         "Rating":4.9,
         "id":19
     },
@@ -137,8 +175,643 @@
         "Name":"Harry Potter",
         "Image":"./image poster.jpg",
         "Author":"JK Rowling",
+        "Price":234,
+        "Category":"sci",
         "Rating":2.9,
         "id":20
+    },
+    {
+        "Name":"Harry Potter & ",
+        "Image":"./image poster.jpg",
+        "Author":"JK Rowling",
+        "Price":234,
+        "Category":"ho",
+        "Rating":4,
+        "id":21
+
+    },
+    {
+        "Name":"Harry Potter",
+        "Image":"./image poster.jpg",
+        "Author":"JK Rowling",
+        "Price":234,
+        "Category":"sci",
+        "Rating":4,
+        "id":22
+    },
+    {
+        "Name":"Harry Potter",
+        "Image":"./image poster.jpg",
+        "Author":"JK Rowling",
+        "Price":234,
+        "Category":"ho",
+        "Rating":5,
+        "id":23
+    },
+    {
+        "Name":"Harry Potter",
+        "Image":"./image poster.jpg",
+        "Author":"JK Rowling",
+        "Rating":4.8,
+        "Price":234,
+        "Category":"ho",
+        "id":24
+    },
+    {
+        "Name":"Harry Potter",
+        "Image":"./image poster.jpg",
+        "Author":"JK Rowling",
+        "Price":234,
+        "Category":"ma",
+        "Rating":4.2,
+        "id":25
+    },
+    {
+        "Name":"Harry Potter",
+        "Image":"./image poster.jpg",
+        "Author":"JK Rowling",
+        "Price":234,
+        "Category":"ho",
+        "Rating":5,
+        "id":26
+    },
+    {
+        "Name":"Harry Potter",
+        "Image":"./image poster.jpg",
+        "Author":"JK Rowling",
+        "Price":234,
+        "Category":"ma",
+        "Rating":4.3,
+        "id":27
+    },
+    {
+        "Name":"Harry Potter",
+        "Image":"./image poster.jpg",
+        "Author":"JK Rowling",
+        "Price":234,
+        "Category":"ho",
+        "Rating":3.9,
+        "id":28
+    },
+    {
+        "Name":"Harry Potter",
+        "Image":"./image poster.jpg",
+        "Author":"JK Rowling",
+        "Price":234,
+        "Category":"rom",
+        "Rating":3.3,
+        "id":29
+    },
+    {
+        "Name":"Harry Potter",
+        "Image":"./image poster.jpg",
+        "Author":"JK Rowling",
+        "Price":234,
+        "Category":"ho",
+        "Rating":4.1,
+        "id":30
+    },
+    {
+        "Name":"Harry Potter",
+        "Image":"./image poster.jpg",
+        "Author":"JK Rowling",
+        "Price":234,
+        "Category":"ma",
+        "Rating":3.8,
+        "id":31
+    },
+    {
+        "Name":"Harry Potter",
+        "Image":"./image poster.jpg",
+        "Author":"JK Rowling",
+        "Price":234,
+        "Category":"sci",
+        "Rating":5,
+        "id":32
+    },
+    {
+        "Name":"Harry Potter",
+        "Image":"./image poster.jpg",
+        "Author":"JK Rowling",
+        "Price":234,
+        "Category":"ma",
+        "Rating":1.5,
+        "id":33
+    },
+    {
+        "Name":"Harry Potter",
+        "Image":"./image poster.jpg",
+        "Author":"JK Rowling",
+        "Price":234,
+        "Category":"ho",
+        "Rating":3.4,
+        "id":34
+    },
+    {
+        "Name":"Harry Potter",
+        "Image":"./image poster.jpg",
+        "Author":"JK Rowling",
+        "Price":234,
+        "Category":"ma",
+        "Rating":4.7,
+        "id":35
+    },
+    {
+        "Name":"Harry Potter",
+        "Image":"./image poster.jpg",
+        "Author":"JK Rowling",
+        "Price":234,
+        "Category":"sci",
+        "Rating":5,
+        "id":36
+    },
+    {
+        "Name":"Harry Potter",
+        "Image":"./image poster.jpg",
+        "Author":"JK Rowling",
+        "Price":234,
+        "Category":"ho",
+        "Rating":2.9,
+        "id":37
+    },
+    {
+        "Name":"Harry Potter",
+        "Image":"./image poster.jpg",
+        "Author":"JK Rowling",
+        "Price":234,
+        "Category":"sci",
+        "Rating":3.1,
+        "id":38
+    },
+    {
+        "Name":"Harry Potter",
+        "Image":"./image poster.jpg",
+        "Author":"JK Rowling",
+        "Price":234,
+        "Category":"ma",
+        "Rating":4.9,
+        "id":39
+    },
+    {
+        "Name":"Harry Potter",
+        "Image":"./image poster.jpg",
+        "Author":"JK Rowling",
+        "Price":234,
+        "Category":"sci",
+        "Rating":2.9,
+        "id":40
+    },
+    {
+        "Name":"Harry Potter & ",
+        "Image":"./image poster.jpg",
+        "Author":"JK Rowling",
+        "Rating":4,
+        "Price":234,
+        "Category":"my",
+        "id":41
+
+    },
+    {
+        "Name":"Harry Potter",
+        "Image":"./image poster.jpg",
+        "Author":"JK Rowling",
+        "Price":234,
+        "Category":"co",
+        "Rating":4,
+        "id":42
+    },
+    {
+        "Name":"Harry Potter",
+        "Image":"./image poster.jpg",
+        "Author":"JK Rowling",
+        "Price":234,
+        "Category":"hf",
+        "Rating":5,
+        "id":43
+    },
+    {
+        "Name":"Harry Potter",
+        "Image":"./image poster.jpg",
+        "Author":"JK Rowling",
+        "Price":234,
+        "Category":"lit",
+        "Rating":4.8,
+        "id":44
+    },
+    {
+        "Name":"Harry Potter",
+        "Image":"./image poster.jpg",
+        "Author":"JK Rowling",
+        "Price":234,
+        "Category":"co",
+        "Rating":4.2,
+        "id":45
+    },
+    {
+        "Name":"Harry Potter",
+        "Image":"./image poster.jpg",
+        "Author":"JK Rowling",
+        "Price":234,
+        "Category":"myc",
+        "Rating":5,
+        "id":46
+    },
+    {
+        "Name":"Harry Potter",
+        "Image":"./image poster.jpg",
+        "Author":"JK Rowling",
+        "Price":234,
+        "Category":"co",
+        "Rating":4.3,
+        "id":47
+    },
+    {
+        "Name":"Harry Potter",
+        "Image":"./image poster.jpg",
+        "Author":"JK Rowling",
+        "Price":234,
+        "Category":"lit",
+        "Rating":3.9,
+        "id":48
+    },
+    {
+        "Name":"Harry Potter",
+        "Image":"./image poster.jpg",
+        "Author":"JK Rowling",
+        "Price":234,
+        "Category":"myc",
+        "Rating":3.3,
+        "id":49
+    },
+    {
+        "Name":"Harry Potter",
+        "Image":"./image poster.jpg",
+        "Author":"JK Rowling",
+        "Price":234,
+        "Category":"co",
+        "Rating":4.1,
+        "id":50
+    },
+    {
+        "Name":"Harry Potter",
+        "Image":"./image poster.jpg",
+        "Author":"JK Rowling",
+        "Price":234,
+        "Category":"hf",
+        "Rating":3.8,
+        "id":51
+    },
+    {
+        "Name":"Harry Potter",
+        "Image":"./image poster.jpg",
+        "Author":"JK Rowling",
+        "Price":234,
+        "Category":"lit",
+        "Rating":5,
+        "id":52
+    },
+    {
+        "Name":"Harry Potter",
+        "Image":"./image poster.jpg",
+        "Author":"JK Rowling",
+        "Price":234,
+        "Category":"co",
+        "Rating":1.5,
+        "id":53
+    },
+    {
+        "Name":"Harry Potter",
+        "Image":"./image poster.jpg",
+        "Author":"JK Rowling",
+        "Price":234,
+        "Category":"myc",
+        "Rating":3.4,
+        "id":54
+    },
+    {
+        "Name":"Harry Potter",
+        "Image":"./image poster.jpg",
+        "Author":"JK Rowling",
+        "Price":234,
+        "Category":"hf",
+        "Rating":4.7,
+        "id":55
+    },
+    {
+        "Name":"Harry Potter",
+        "Image":"./image poster.jpg",
+        "Author":"JK Rowling",
+        "Price":234,
+        "Category":"po",
+        "Rating":5,
+        "id":56
+    },
+    {
+        "Name":"Harry Potter",
+        "Image":"./image poster.jpg",
+        "Author":"JK Rowling",
+        "Price":234,
+        "Category":"myc",
+        "Rating":2.9,
+        "id":57
+    },
+    {
+        "Name":"Harry Potter",
+        "Image":"./image poster.jpg",
+        "Author":"JK Rowling",
+        "Price":234,
+        "Category":"lit",
+        "Rating":3.1,
+        "id":58
+    },
+    {
+        "Name":"Harry Potter",
+        "Image":"./image poster.jpg",
+        "Author":"JK Rowling",
+        "Price":234,
+        "Category":"po",
+        "Rating":4.9,
+        "id":59
+    },
+    {
+        "Name":"Harry Potter",
+        "Image":"./image poster.jpg",
+        "Author":"JK Rowling",
+        "Price":234,
+        "Category":"myc",
+        "Rating":2.9,
+        "id":60
+    },
+    {
+        "Name":"Harry Potter & ",
+        "Image":"./image poster.jpg",
+        "Author":"JK Rowling",
+        "Price":234,
+        "Category":"hf",
+        "Rating":4,
+        "id":61
+
+    },
+    {
+        "Name":"Harry Potter",
+        "Image":"./image poster.jpg",
+        "Author":"JK Rowling",
+        "Price":234,
+        "Category":"lit",
+        "Rating":4,
+        "id":62
+    },
+    {
+        "Name":"Harry Potter",
+        "Image":"./image poster.jpg",
+        "Author":"JK Rowling",
+        "Price":234,
+        "Category":"po",
+        "Rating":5,
+        "id":63
+    },
+    {
+        "Name":"Harry Potter",
+        "Image":"./image poster.jpg",
+        "Author":"JK Rowling",
+        "Rating":4.8,
+        "Price":234,
+        "Category":"my",
+        "id":64
+    },
+    {
+        "Name":"Harry Potter",
+        "Image":"./image poster.jpg",
+        "Author":"JK Rowling",
+        "Price":234,
+        "Category":"lit",
+        "Rating":4.2,
+        "id":65
+    },
+    {
+        "Name":"Harry Potter",
+        "Image":"./image poster.jpg",
+        "Author":"JK Rowling",
+        "Price":234,
+        "Category":"myc",
+        "Rating":5,
+        "id":66
+    },
+    {
+        "Name":"Harry Potter",
+        "Image":"./image poster.jpg",
+        "Author":"JK Rowling",
+        "Price":234,
+        "Category":"my",
+        "Rating":4.3,
+        "id":67
+    },
+    {
+        "Name":"Harry Potter",
+        "Image":"./image poster.jpg",
+        "Author":"JK Rowling",
+        "Price":234,
+        "Category":"lit",
+        "Rating":3.9,
+        "id":68
+    },
+    {
+        "Name":"Harry Potter",
+        "Image":"./image poster.jpg",
+        "Author":"JK Rowling",
+        "Price":234,
+        "Category":"my",
+        "Rating":3.3,
+        "id":69
+    },
+    {
+        "Name":"Harry Potter",
+        "Image":"./image poster.jpg",
+        "Author":"JK Rowling",
+        "Price":234,
+        "Category":"hf",
+        "Rating":4.1,
+        "id":70
+    },
+    {
+        "Name":"Harry Potter",
+        "Image":"./image poster.jpg",
+        "Author":"JK Rowling",
+        "Price":234,
+        "Category":"my",
+        "Rating":3.8,
+        "id":71
+    },
+    {
+        "Name":"Harry Potter",
+        "Image":"./image poster.jpg",
+        "Author":"JK Rowling",
+        "Price":234,
+        "Category":"lit",
+        "Rating":5,
+        "id":72
+    },
+    {
+        "Name":"Harry Potter",
+        "Image":"./image poster.jpg",
+        "Author":"JK Rowling",
+        "Price":234,
+        "Category":"my",
+        "Rating":1.5,
+        "id":73
+    },
+    {
+        "Name":"Harry Potter",
+        "Image":"./image poster.jpg",
+        "Author":"JK Rowling",
+        "Price":234,
+        "Category":"po",
+        "Rating":3.4,
+        "id":74
+    },
+    {
+        "Name":"Harry Potter",
+        "Image":"./image poster.jpg",
+        "Author":"JK Rowling",
+        "Price":234,
+        "Category":"lit",
+        "Rating":4.7,
+        "id":75
+    },
+    {
+        "Name":"Harry Potter",
+        "Image":"./image poster.jpg",
+        "Author":"JK Rowling",
+        "Price":234,
+        "Category":"hf",
+        "Rating":5,
+        "id":76
+    },
+    {
+        "Name":"Harry Potter",
+        "Image":"./image poster.jpg",
+        "Author":"JK Rowling",
+        "Price":234,
+        "Category":"po",
+        "Rating":2.9,
+        "id":77
+    },
+    {
+        "Name":"Harry Potter",
+        "Image":"./image poster.jpg",
+        "Author":"JK Rowling",
+        "Price":234,
+        "Category":"my",
+        "Rating":3.1,
+        "id":78
+    },
+    {
+        "Name":"Harry Potter",
+        "Image":"./image poster.jpg",
+        "Author":"JK Rowling",
+        "Price":234,
+        "Category":"lit",
+        "Rating":4.9,
+        "id":79
+    },
+    {
+        "Name":"Harry Potter",
+        "Image":"./image poster.jpg",
+        "Author":"JK Rowling",
+        "Price":234,
+        "Category":"my",
+        "Rating":2.9,
+        "id":80
+    },
+    {
+        "Name":"Harry Potter",
+        "Image":"./image poster.jpg",
+        "Author":"JK Rowling",
+        "Price":234,
+        "Category":"po",
+        "Rating":4.9,
+        "id":81
+    },
+    {
+        "Name":"Harry Potter",
+        "Image":"./image poster.jpg",
+        "Author":"JK Rowling",
+        "Price":234,
+        "Category":"po",
+        "Rating":4.9,
+        "id":82
+    },
+    {
+        "Name":"Harry Potter",
+        "Image":"./image poster.jpg",
+        "Author":"JK Rowling",
+        "Price":234,
+        "Category":"th",
+        "Rating":4.9,
+        "id":83
+    },
+    {
+        "Name":"Harry Potter",
+        "Image":"./image poster.jpg",
+        "Author":"JK Rowling",
+        "Price":234,
+        "Category":"th",
+        "Rating":4.9,
+        "id":84
+    },
+    {
+        "Name":"Harry Potter",
+        "Image":"./image poster.jpg",
+        "Author":"JK Rowling",
+        "Price":234,
+        "Category":"th",
+        "Rating":4.9,
+        "id":85
+    },
+    {
+        "Name":"Harry Potter",
+        "Image":"./image poster.jpg",
+        "Author":"JK Rowling",
+        "Price":234,
+        "Category":"th",
+        "Rating":4.9,
+        "id":86
+    },
+    {
+        "Name":"Harry Potter",
+        "Image":"./image poster.jpg",
+        "Author":"JK Rowling",
+        "Price":234,
+        "Category":"th",
+        "Rating":4.9,
+        "id":87
+    },
+    {
+        "Name":"Harry Potter",
+        "Image":"./image poster.jpg",
+        "Author":"JK Rowling",
+        "Price":234,
+        "Category":"th",
+        "Rating":4.9,
+        "id":88
+    },
+    {
+        "Name":"Harry Potter",
+        "Image":"./image poster.jpg",
+        "Author":"JK Rowling",
+        "Price":234,
+        "Category":"th",
+        "Rating":4.9,
+        "id":89
+    },
+    {
+        "Name":"Harry Potter",
+        "Image":"./image poster.jpg",
+        "Author":"JK Rowling",
+        "Price":234,
+        "Category":"th",
+        "Rating":4.9,
+        "id":90
     }
 
 ]

@@ -22,16 +22,13 @@
             <p> GIFT CARDS  </p>
         </div>
         <div>
-            <a href="./myaccount.html">MY ACCOUNT</a><span>|</span>
+            <a href="./myaccount.html">MY ACCOUNT</a>
+            <p id="shown"></p>
+            <span>|</span>
             <i class="fa-solid fa-heart"></i>
             <P>WISHLIST</P>
         </div>
     </div>
-    <div id="logo">
-        <a href="./index.html"><img src="./turn The page.png" alt=""></a>
-            <i class="fa-solid fa-heart"></i>
-            <P>WISHLIST</P>
-        </div>
     </div>
     <div id="logo">
         <a href="./index.html"><img src="./turn The page.png" alt=""></a>
@@ -304,7 +301,8 @@ function slideshowFun(images){
   di.innerHTML="";
     let im=document.createElement("p");
     im.innerText=images;
-    im.style.Color="red"
+    im.style.textAlign="center"
+    im.style.width="100%"
     
 
     di.append(im)
