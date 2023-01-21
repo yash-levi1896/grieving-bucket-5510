@@ -1,12 +1,10 @@
-function FetchData(){
 fetch("./fiction.json")
 .then((response)=>{
     
-    response.json()
+    return response.json()
     
 })
 .then((data)=>{
     console.log(data)
 });
-}
-FetchData();
+
