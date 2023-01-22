@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>SignIn</title>
     <style>
        body{
           margin: 0px;
@@ -73,7 +73,7 @@
       formELE.addEventListener("submit",function(e){
            e.preventDefault();
         let count=0;
-          let store=(JSON.parse(localStorage.getItem("account-data")));
+          let store=(JSON.parse(localStorage.getItem("account-data")))||[];
           console.log(store)
           for(let i=0;i<store.length;i++){
              if(h.value==JSON.parse(localStorage.getItem("account-data"))[i].email && p.value==JSON.parse(localStorage.getItem("account-data"))[i].password){
@@ -82,8 +82,14 @@
            
           }
         };
+        if(store==""){
+           alert("This account dosen't exist make a new account");
+           location.href="myaccount.html";
+        }
            if(count==1){
-            document.getElementById("heading").innerText="Sign in Successful";
+             document.getElementById("heading").innerText="Sign in Successful";
+             alert("You Sign in successfully");
+            location.href="deliverydetail.html";
            }
            else{
             document.getElementById("heading").innerText="Wrong Credentials";

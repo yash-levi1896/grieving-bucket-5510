@@ -26,12 +26,12 @@
     </div>
     <div id="logo">
         <a href="./index.html"><img src="./turn The page.png" alt=""></a>
-       <form >
-        <input type="text" placeholder="Search by Title,Author,Key word or ISBN">
+       <form id="searchbook">
+        <input type="text" placeholder="Search by Title,Author,Key word or ISBN" id="search">
         <button type="submit"><i class="fa-solid fa-magnifying-glass" style="font-size: 30px;padding-bottom:10px;"></i></button>
        </form>
-       <i class="fa-solid fa-cart-plus" style="font-size:50px;"></i>
-     </div>
+       <a href="./cart.html" class="fa-solid fa-cart-plus" style="font-size:50px;"></a>
+         </div>
      <div id="cat">
         <P><b>Books </b></P><span>||</span>
         <a href="./fiction.html"> <b>Fiction </b></a><span>|</span>
@@ -56,32 +56,31 @@
         <p>Home > Books</p>
         <h2>Fiction Books</h2>
         <p>Browse a variety of fiction genres including general fiction, literature, romance and many more.</p>
-        <div>
-            <h3>Browse Fiction</h3>
-            <p>Bestsellers</p>
-            <p>New Releases</p>
-            <p>Coming Soon</p>
-            <p>Fiction Audiobooks</p>
-            <p>Fiction eBooks</p>
-            <p>Fiction Home</p>
-            <select id="category">
-                <option value="">Filter by category</option>
-                <option value="rom">Romance</option>
-                <option value="sci">Science Fiction & Fantasy</option>
-                <option value="ma">Manga</option>
-                <option value="ho">Horror</option>
-                <option value="my">Mystery</option>
-                <option value="co">Graphic Novels & Comics</option>
-                <option value="hf">Historical Fiction</option>
-                <option value="lit">Literature</option>
-                <option value="myc">Mystery & Crime</option>
-                <option value="po">Poetry</option>
-                <option value="th">Thrillers</option>
-                
-            </select>
+        <div id="child1">
+        <select id="categ">
+            <option value="">Filter by category</option>
+            <option value="rom">Romance</option>
+            <option value="sci">Science Fiction & Fantasy</option>
+            <option value="ma">Manga</option>
+            <option value="ho">Horror</option>
+            <option value="my">Mystery</option>
+            <option value="co">Graphic Novels & Comics</option>
+            <option value="hf">Historical Fiction</option>
+            <option value="lit">Literature</option>
+            <option value="myc">Mystery & Crime</option>
+            <option value="po">Poetry</option>
+            <option value="th">Thrillers</option>    
+        </select>
+        <button>Sort by price</button>
+        <button id="rat">Sort by rating</button>
+        <!-- <!-- <button id="undo"><i class="fa-solid fa-rotate-left"></i></button> -->
+    </div> 
+            
+        <div id="container">
+          <!-- append card divv here -->
         </div>
 
-
+        
      </div>
      <div id="limage">
          
