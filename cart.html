@@ -4,9 +4,348 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>cart</title>
+    <script src="https://kit.fontawesome.com/b95f450ab5.js" crossorigin="anonymous"></script>
+    <style>
+        * {
+    box-sizing: border-box;
+  }
+body{
+    margin:0px;
+    padding:0px;
+}
+#offer {
+    display: flex;
+    /* border:1px solid blue; */
+    background-color: #004D40;
+    color:white;
+    text-align: center;
+}
+#offer p{
+    text-align: center;
+}
+
+#details{
+    
+    display:flex;
+    /* border: 1px solid red; */
+    justify-content: space-between;
+    
+    width:80%;
+    margin: auto;
+}
+#details p{
+    font-size: 15px;
+    color:#21282d;
+}
+#details p:hover{
+    border-bottom: 1px solid rgb(136, 116, 4);
+    cursor: pointer;
+}
+#details a:hover{
+    border-bottom: 1px solid rgb(136, 116, 4);
+    cursor: pointer;
+}
+#details>div:nth-child(2) span{
+    color:rgb(243, 208, 8);
+}
+#details>div:nth-child(1) span{
+    /* display: flex; */
+   color:rgb(243, 208, 8);
+    /* font-size: 30px; */
+    /* height:5px; */
+    /* margin-right: 5px;
+    margin-left: 5px; */
+    /* align-content: center; */
+    
+}
+#details>div:nth-child(1){
+    display: flex;
+    /* border: 1px solid blue; */
+    width:60%;
+    justify-content: space-between;
+    align-items: center;
+}
+#details>div:nth-child(1)>p{
+    margin-right: 1px;
+}
+#details>div:nth-child(2){
+    display: flex;
+    /* border: 1px solid blue; */
+    width:13%;
+    justify-content: space-between;
+    align-items: center;
+}
+#details>div:nth-child(2) a{
+    color:black;
+    text-decoration: none;
+}
+#logo{
+    display:flex;
+    width:80%;
+    margin: auto;
+    /* border:1px solid black; */
+    align-items: center;
+    
+}
+#logo input{
+    width:700px;
+    padding:15px;
+    border:1px solid #004D40;
+    outline: none;
+    margin-left: 60px;;
+}
+#cat{
+    display: flex;
+    /* border:1px solid black; */
+    align-items: center;
+    width:80%;
+    justify-content: space-between;
+    margin: auto;
+}
+#cat a{
+    text-decoration: none;
+    color:black;
+}
+#cat span{
+    color:rgb(197, 169, 9);
+}
+#deals img{
+    width:100%
+}
+#last{
+    text-align: center;
+    color:white;
+    background-color: #004D40;
+    
+    padding-top: 0.5px;
+    padding-bottom: 0.5px;
+    margin-bottom: 80px;
+}
+
+        #order-detail{
+            width:90%;
+            margin:auto;
+            display: flex;
+            justify-content: space-between;
+        }
+        #order-container{
+            display:grid;
+            grid-template-columns: repeat(3,1fr);
+            gap:20px;
+        }
+        #order-container>div{
+            box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+            border-radius: 10px;
+        }
+        #order-container>div>div{
+            
+            /* box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px; */
+            padding-bottom: 20px;
+            padding-left: 20px;
+        }
+        #order-container>div>img{
+            width:100%;
+            height:400px;
+            border-top-left-radius: 10px;
+            border-top-right-radius: 10px;
+            
+        }
+        #order-container>div button{
+             padding:10px;
+             border: 1px solid black;
+             background-color: white;
+             margin-right: 5px;
+             border-radius: 10px;;
+        }
+        #order-container>div button:nth-child(7){
+            padding:10px 13px 10px 13px;
+        }
+        #order-container>div button:hover{
+            background-color: rgb(240, 103, 103);
+        }
+        #order-container>div span{
+            margin-right: 5px;
+        }
+        #main{
+            padding-left:20px;
+            border-left: 1px solid black;
+            /* border:1px solid red */
+        }
+        #main button{
+            padding:10px;
+            background-color: green;
+            color:white;
+            border: none;
+            display: block;
+            margin: auto;
+        }
+        #cost-container div{
+            /* border:1px solid red; */
+            width:100%;
+            display: flex;
+            justify-content: space-between;
+        }
+    </style>
 </head>
 <body>
+    <!-- <div class="nav"> -->
+        <div id="details">
+            <div>
+                <p>STORES & EVENTS</p><span>|</span>
+                <p> BLOG & PODCAST </p><span>|</span>
+                <p> MEMBERSHIP  </p><span>|</span>
+                <p> COUPONS & DEALS  </p><span>|</span>
+                <p> BESTSELLERS  </p><span>|</span>
+                <p> GIFT CARDS  </p>
+            </div>
+            <div>
+                <a href="./myaccount.html">MY ACCOUNT</a>
+                <p id="shown"></p>
+                <span>|</span>
+                <i class="fa-solid fa-heart"></i>
+                <P>WISHLIST</P>
+            </div>
+        </div>
     
+        </div>
+        <div id="logo">
+            <a href="./index.html"><img src="./turn The page.png" alt=""></a>
+           <form >
+            <input type="text" placeholder="Search by Title,Author,Key word or ISBN">
+            <button type="submit"><i class="fa-solid fa-magnifying-glass" style="font-size: 30px;padding-bottom:10px;"></i></button>
+           </form>
+           <!-- <a href="./cart.html" class="fa-solid fa-cart-plus" style="font-size:50px;"></a> -->
+         </div>
+         <div id="cat">
+            <P><b>Books </b></P><span>||</span>
+            <a href="./fiction.html"> <b>Fiction </b></a><span>|</span>
+            <P> <b> Nonfiction</b></P><span>|</span>
+            <P> <b> eBooks</b></P><span>|</span>
+            <P><b>Audio Books</b></P><span>|</span>
+            <P><b>Teens & YA</b></P><span>|</span>
+            <P><b>Kids</b></P><span>|</span>
+            <P><b>Toys & games</b></P><span>|</span>
+            <P><b>Stationary & gifts</b></P><span>|</span>
+            <P><b>Music & Movies</b></P>
+         </div>
+         <div id="deals">
+           
+            <img src="https://dispatch.barnesandnoble.com/content/dam/ccr/global/global-nav-banner/2022/12/PROD-25649_RUSH_PostHolidaySale_GlobalNavBanner_12-26_rd3.png" alt="">
+            
+         </div>
+         <div id="last">
+            <p>Free Shipping on Orders of $40 or More</p>
+         </div>
+        
+      <!-- </div> -->
+     
+      <div id="order-detail">
+        <h1 id="ca"></h1>
+      <div id="order-container">
+        <!-- Here Append All the Order Cards -->
+      </div>
+      <div id="main">
+
+        <h4>Items:</h4>
+        <div id="cost-container"></div>
+        <h4 id="total">
+            Cart Total :- <span id="order-total">0</span>
+          </h4>
+        <button id="fbtn">Place Order</button>
+      </div>
+      </div>
 </body>
+<script>
+    cartdata=JSON.parse(localStorage.getItem("buy"))||[];
+    let container=document.getElementById("order-container");
+    let container2=document.getElementById("cost-container");
+    let obtn=document.getElementById("fbtn");    
+    let h=document.createElement("h1");
+    
+    cartdisplay(cartdata);
+    if(cartdata==""){
+            h.innerText="Your Cart is empty";
+        }
+    
+    function cartdisplay(cartdata){
+      container.innerHTML="";
+      cartdata.forEach((element) => {
+        let card=document.createElement("div");
+        let imgcard=document.createElement("div");
+        let im=document.createElement("img");
+        im.src=element.Image;
+        
+        let title=document.createElement("h2");
+        title.innerText=element.Name;
+        let author=document.createElement("h4");
+        author.innerText=`Author: ${element.Author}`;
+        let price=document.createElement("p");
+        price.innerText=`Price: $ ${element.Price}`;
+        let rating=document.createElement("p");
+        rating.innerText=`Rating: ${element.Rating}`;
+        let btni=document.createElement("button")
+        btni.innerText="+";
+        let quant=document.createElement("span");
+        quant.innerText=element.quantity;
+        let btnd=document.createElement("button")
+        btnd.innerText="-";
+        btni.addEventListener("click",()=>{
+          element=element.quantity++;
+          localStorage.setItem("buy",JSON.stringify(cartdata));
+          cartdisplay(cartdata);
+          order(cartdata);
+          
+        });
+        btnd.addEventListener("click",()=>{
+          if(element.quantity>1){
+            element=element.quantity--;
+          localStorage.setItem("buy",JSON.stringify(cartdata));
+          cartdisplay(cartdata);
+          order(cartdata);
+          }
+        });
+        let btn=document.createElement("button");
+        btn.innerText="Remove";
+        btn.addEventListener("click",()=>{
+             let filt=cartdata.filter((el)=>{
+              return el.id!=element.id
+             });
+             localStorage.setItem("buy",JSON.stringify(filt));
+             cartdisplay(filt);
+             order(filt);
+        });
+        
+        imgcard.append(title,author,price,rating,btni,quant,btnd,btn)
+        card.append(im,imgcard);
+        container.append(card);
+    });
+    order(cartdata);
+
+    let sum=0;
+  for(let i=0;i<cartdata.length;i++){
+    sum+=cartdata[i].Price * cartdata[i].quantity;
+  }
+  document.getElementById("order-total").innerText=sum;
+  }
+  
+  function order(data){
+    container2.innerHTML="";
+    data.forEach((ele)=>{
+        let car=document.createElement("div")
+        let det=document.createElement("p");
+        det.innerText=`${ele.quantity} x ${ele.Name}`;
+        let pr=document.createElement("p");
+        pr.innerText=ele.Price*ele.quantity;
+        obtn.addEventListener("click",()=>{
+            // alert("place the final order");
+            location.href="signin.html"
+        });
+        car.append(det,pr)
+        container2.append(car)
+    });
+}
+
+  
+  </script>
 </html>

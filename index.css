@@ -62,10 +62,10 @@ body{
 }
 #details>div:nth-child(2){
     display: flex;
+    align-items: center;
     /* border: 1px solid blue; */
     width:13%;
-    justify-content: space-between;
-    align-items: center;
+    justify-content: space-between;    
 }
 #details>div:nth-child(2) a{
     color:black;
@@ -111,11 +111,33 @@ body{
     
     padding-top: 0.5px;
     padding-bottom: 0.5px;
+    
 }
 #det{
     width:80%;
     margin: auto;
     text-align: center;
+    margin-top: 30px;
+    margin-bottom: 60px;
+    border-bottom: 1px solid gray;
+}
+.divt{
+    width:80%;
+    margin: auto;
+    /* border: 1px solid red; */
+}
+.div1{
+    display: flex;
+    justify-content: space-between;
+    
+    width:100%;
+    margin:auto;
+}
+.div1>div{
+    width:15%;
+}
+.div1>div img{
+    width:100%;
 }
 /* .main-carousel{
     border: 1px solid red;
@@ -146,6 +168,8 @@ body{
 #middle-sect>div:nth-child(1){
     width:80%;
     margin: auto;
+    margin-top: 60px;
+    margin-bottom: 80px;
 }
 #middle-sect>div:nth-child(1)>img{
     width:100%;
@@ -194,6 +218,8 @@ body{
 #jigsaw{
     width:80%;
     margin: auto;
+    margin-top: 60px;
+    margin-bottom: 60px;
 }
 #jigsaw img{
     width:100%;
@@ -201,6 +227,7 @@ body{
 #laoffer{
     width:80%;
     margin: auto;
+    margin-top: 60px;
 }
 #laoffer img{
     width:100%;
