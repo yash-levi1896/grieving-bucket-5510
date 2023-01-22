@@ -264,9 +264,8 @@ body{
     let h=document.createElement("h1");
     
     cartdisplay(cartdata);
-    if(cartdata==""){
-            h.innerText="Your Cart is empty";
-        }
+    
+       
     
     function cartdisplay(cartdata){
       container.innerHTML="";
@@ -321,6 +320,10 @@ body{
         container.append(card);
     });
     order(cartdata);
+    if(container.innerHTML==""){
+            h.innerText="Your Cart is empty. start shoping";
+            container.append(h)
+        }
 
     let sum=0;
   for(let i=0;i<cartdata.length;i++){
